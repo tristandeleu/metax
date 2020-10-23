@@ -1,0 +1,1 @@
+from metax.version import VERSION as __version__
