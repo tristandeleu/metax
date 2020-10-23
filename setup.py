@@ -26,5 +26,5 @@ setup(
     url='https://github.com/tristandeleu/metax',
     keywords=['meta-learning', 'jax', 'few-shot', 'few-shot learning'],
     packages=find_packages(exclude=['data', 'tests', 'examples']),
-    install_requires=[],
+    install_requires=['numpy', 'jax', 'jaxlib'],
 )
